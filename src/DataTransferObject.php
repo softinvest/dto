@@ -32,6 +32,7 @@ class DataTransferObject
                 'int', '?int' => (int)$value,
                 'float', '?float' => (float)$value,
                 'string', '?string' => (string)$value,
+                'array', '?array' => (array)$value,
                 default => $value
             };
 
